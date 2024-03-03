@@ -15,14 +15,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: |
-        npm install
-
-    - name: Build project
-      run: |
-        npm run build
-
     - name: Compress src directory
       run: |
         tar -czf src.tar.gz src
