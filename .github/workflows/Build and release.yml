@@ -12,30 +12,47 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Compress src directory
-      run: |
-        tar -czf src.tar.gz src
+      - name: Compress src directory
+        run: |
+          tar -czf src.tar.gz src
 
-    - name: Optimize compression
-      run: |
-        gzip -9 src.tar.gz
+      - name: Optimize compression
+        run: |
+          gzip -9 src.tar.gz
 
-    - name: Get version from ToolDelta repository
-      id: get_version
-      run: |
-        VERSION=$(curl -s https://raw.githubusercontent.com/ToolDelta/ToolDelta/main/version)
-        echo "::set-output name=version::$VERSION"
+      - name: Get version from ToolDelta repository
+        id: get_version
+        run: |
+          VERSION=$(curl -s https://raw.githubusercontent.com/ToolDelta/ToolDelta/main/version)
+          echo "::set-output name=version::$VERSION"
 
-    - name: Upload release asset
-      id: upload_release_asset
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: src.tar.gz
-        asset_name: ToolDelta-Game_Texts${{ steps.get_version.outputs.version }}.tar.gz
-        asset_content_type: application/gzip
+      - name: Check if release already exists
+        id: check_release
+        run: |
+          RELEASE_ID=$(curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/ToolDelta/ToolDelta/releases/tags/${{ steps.get_version.outputs.version }} | jq -r '.id')
+          echo "::set-output name=release_id::$RELEASE_ID"
+
+      - name: Create or update release
+        id: create_or_update_release
+        run: |
+          if [ -z "${{ steps.check_release.outputs.release_id }}" ]; then
+            echo "Creating new release"
+            curl -X POST -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/ToolDelta/ToolDelta/releases --data '{"tag_name": "${{ steps.get_version.outputs.version }}", "name": "Release ${{ steps.get_version.outputs.version }}", "body": "Release ${{ steps.get_version.outputs.version }}", "draft": false, "prerelease": false}'
+          else
+            echo "Updating existing release"
+            curl -X PATCH -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/ToolDelta/ToolDelta/releases/${{ steps.check_release.outputs.release_id }} --data '{"tag_name": "${{ steps.get_version.outputs.version }}", "name": "Release ${{ steps.get_version.outputs.version }}", "body": "Release ${{ steps.get_version.outputs.version }}", "draft": false, "prerelease": false}'
+          fi
+
+      - name: Upload release asset
+        id: upload_release_asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: https://uploads.github.com/repos/ToolDelta/ToolDelta/releases/${{ steps.get_version.outputs.version }}/assets?name=ToolDelta-Game_Texts${{ steps.get_version.outputs.version }}.tar.gz
+          asset_path: src.tar.gz
+          asset_name: ToolDelta-Game_Texts${{ steps.get_version.outputs.version }}.tar.gz
+          asset_content_type: application/gzip
