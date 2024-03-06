@@ -29,18 +29,6 @@ jobs:
         VERSION=$(curl -s https://raw.githubusercontent.com/ToolDelta/ToolDelta/main/version)
         echo "::set-output name=version::$VERSION"
 
-    - name: Create release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        tag_name: ${{ steps.get_version.outputs.version }}
-        release_name: Release ${{ steps.get_version.outputs.version }}
-        body: Release ${{ steps.get_version.outputs.version }}
-        draft: false
-        prerelease: false
-
     - name: Upload release asset
       id: upload_release_asset
       uses: actions/upload-release-asset@v1
