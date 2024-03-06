@@ -6,6 +6,7 @@ on:
       - main
   schedule:
     - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -20,6 +21,10 @@ jobs:
         run: |
           VERSION=$(curl -s https://raw.githubusercontent.com/ToolDelta/ToolDelta/main/version)
           echo "::set-output name=version::$VERSION"
+
+      - name: Create version file
+        run: |
+          echo "${{ steps.get_version.outputs.version }}" > src/version
 
       - name: Compress src directory
         run: |
