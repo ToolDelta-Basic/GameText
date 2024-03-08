@@ -28,11 +28,11 @@ jobs:
 
       - name: Compress src directory
         run: |
-          tar -czf ToolDelta_Game_Texts.tar.gz src
+          tar -czf ToolDelta_Game_Texts.tar src
 
       - name: Optimize compression
         run: |
-          gzip -9 ToolDelta_Game_Texts.tar.gz
+          gzip -9 ToolDelta_Game_Texts.tar
 
       - name: Release
         uses: softprops/action-gh-release@v1
