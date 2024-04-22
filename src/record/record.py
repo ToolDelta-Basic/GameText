@@ -1,4 +1,4 @@
 record: dict = {
-    "record.nowPlaying=正在播放：%s",
+    "record.nowPlaying":正在播放：%s",
 
 }

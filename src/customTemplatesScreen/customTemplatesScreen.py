@@ -1,4 +1,4 @@
 customTemplatesScreen: dict = {
-    "customTemplatesScreen.header=导入的模板",
+    "customTemplatesScreen.header":导入的模板",
 
 }

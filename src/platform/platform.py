@@ -1,4 +1,4 @@
 platform: dict = {
-    "platform.model.unknown=未知",
+    "platform.model.unknown":未知",
 
 }

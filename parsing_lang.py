@@ -9,9 +9,15 @@ with open(lang_file_path, lang_file_mode) as lang_data_io:
     lines = lang_data_io.readlines()
     # data = lang_data_io.read()
 
+def check_digit(string):
+    for char in string:
+        if char.isdigit():
+            return True
+    return False
+
 def process_line(line):
     processed_line = line.replace('"', "'")
-    processed_line = f'"{processed_line}'.replace('"=', '":').replace("\n", "")
+    processed_line = f'"{processed_line}'.replace('=', '":').replace("\n", "")
     return processed_line + '",\n'
 
 def process_file(file_path, name):
@@ -20,7 +26,8 @@ def process_file(file_path, name):
         for line in file:
             processed_line = process_line(line)
             new_lines.append(processed_line)
-    data = f'{name}: dict = {{\n    {"    ".join(new_lines)}\n}}'
+    if check_digit(name):data = f'Error: dict'
+    else:data = f'{name}: dict = {{\n    {"    ".join(new_lines)}\n}}'
     with open(file_path, 'w') as file:
         file.write(data)
 

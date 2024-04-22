@@ -1,4 +1,4 @@
 toolboxMode: dict = {
-    "toolboxMode.text=即将推出",
+    "toolboxMode.text":即将推出",
 
 }
