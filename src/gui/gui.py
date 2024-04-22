@@ -33,8 +33,7 @@ gui: dict = {
     "gui.pickIcon.failedMessage":"错误：无效的文件格式",
     "gui.previous":"上一个",
     "gui.copyWorld":"复制世界",
-    "gui.copyWorld.failedMessage":"我们无法创建此世界的副本。可能是由于缺乏存储空间或其他问题。请查看：https:",
-    "gui.goBack":"返回",
+        "gui.goBack":"返回",
     "gui.import":"导入",
     "gui.importWorld":"导入",
     "gui.importRetailWorld.title":"要导入世界吗？",
@@ -71,7 +70,5 @@ gui: dict = {
     "gui.signIn":"登录",
     "gui.genericNetworkError":"出错了。尝试检查您的互联网连接。",
     "gui.hide":"隐藏",
-    "gui.edu.exitGameWarningCaption":"Minecraft:",
-    "gui.edu.exitGameWarningMessage":"离开 Minecraft:",
-
+        
 }

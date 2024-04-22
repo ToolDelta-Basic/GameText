@@ -1,7 +1,5 @@
 joincode: dict = {
-    "joincode.entry_popup.icon_button":"%1 加入代码按钮		 Example:",
-    "joincode.entry_popup.icon_entry":"%3 加入代码记录，第 %1 条，共 %2 条	 Example:",
-    "joincode.entry_popup.title":"输入加入代码",
+            "joincode.entry_popup.title":"输入加入代码",
     "joincode.connecting.title":"加入世界",
     "joincode.connecting.lower_text":"正在搜索世界……",
     "joincode.error.title":"加入错误",
@@ -39,8 +37,7 @@ joincode: dict = {
     "joincode.button.share_link.text":"分享链接",
     "joincode.generating_new":"加载中…",
     "joincode.tooltip.errortext":"生成加入代码时出错了。",
-    "joincode.tooltip.account.error":"验证您的账户时出现了问题。请重启 Minecraft:",
-    "joincode.tooltip.infotext":"把加入代码给您的同学，让他们加入您的世界。",
+        "joincode.tooltip.infotext":"把加入代码给您的同学，让他们加入您的世界。",
     "joincode.button.stop_hosting.text":"停止托管",
     "joincode.confirmation.stop_hosting.message":"如果停止托管世界，所有玩家的多人游戏会话将结束。您确定要这么做吗？",
     "joincode.button.start_hosting.text":"开始托管",

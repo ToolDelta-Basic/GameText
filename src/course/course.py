@@ -1,8 +1,6 @@
 course: dict = {
     "course.edu.begin":"开始",
-    "course.edu.byLessonsEndGeneric":"本节课结束时，您将学习到以下内容:",
-    "course.edu.byLessonsEndOrdered":"第%d节课结束时，您将学习到以下内容:",
-    "course.edu.collaborativeLesson":"协作课程",
+            "course.edu.collaborativeLesson":"协作课程",
     "course.edu.collaborativeLessonAndQuiz":"协作课程与测验",
     "course.edu.connectionFailed":"糟糕！您似乎已经断开了网络连接。请检查您的网络连接并重试！",
     "course.edu.connectionProblem.courseList":"连接课程列表时出现问题。 请检查您的互联网连接并再试一次。",

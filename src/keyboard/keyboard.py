@@ -125,8 +125,7 @@ keyboard: dict = {
     "keyboard.keyName.numpad8.short":"N8",
     "keyboard.keyName.numpad9.short":"N9",
     "keyboard.keyName.scroll.short":"SCROLL",
-    "keyboard.keyName.equals.short":"":"",
-    "keyboard.keyName.add.short":"N+",
+        "keyboard.keyName.add.short":"N+",
     "keyboard.keyName.minus.short":"-",
     "keyboard.keyName.subtract.short":"N-",
     "keyboard.keyName.multiply.short":"N*",
@@ -139,8 +138,7 @@ keyboard: dict = {
     "keyboard.keyName.apostrophe.short":"'",
     "keyboard.keyName.comma.short":",",
     "keyboard.keyName.period.short":".",
-    "keyboard.keyName.backslash.short":"\",
-    "keyboard.keyName.lbracket.short":"[",
+        "keyboard.keyName.lbracket.short":"[",
     "keyboard.keyName.rbracket.short":"]",
 
 }

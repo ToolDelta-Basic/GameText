@@ -18,7 +18,10 @@ def check_digit(string):
 def process_line(line):
     processed_line = line.replace('"', "'")
     processed_line = f'"{processed_line}'.replace('=', '":"').replace("\n", "")
-    return processed_line + '",\n'
+    if processed_line[-1] == "\\":return ""
+    if processed_line[-1] == ":":return ""
+    if processed_line.count(':') == 1:return processed_line + '",\n'
+    else:return ""
 
 def process_file(file_path, name):
     new_lines = []

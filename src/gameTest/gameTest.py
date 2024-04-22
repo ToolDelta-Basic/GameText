@@ -64,9 +64,7 @@ gameTest: dict = {
     "gameTest.report.testLocation":"在：%s，%s，%s（相关：%s，%s，%s）",
     "gameTest.report.tickCount":"标记：%s                                              	 This appears right below the gameTest.report.testLocation line",
     "gameTest.report.testCount":"游戏测试完成！运行了 %s 个测试",
-    "gameTest.report.someTestsFailed":"%s 个所要求的测试失败 :",
-    "gameTest.report.allRequiredTestsPassed":"所有要求的测试均通过 :",
-    "gameTest.report.optionalFailures":"%s 个可选测试失败",
+            "gameTest.report.optionalFailures":"%s 个可选测试失败",
     "gameTest.report.bookTitle":"游戏测试报告                                      	 A book with this title is placed next to each test with the test results inside",
 
 }

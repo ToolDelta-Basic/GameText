@@ -14,6 +14,5 @@ pauseScreen: dict = {
     "pauseScreen.betaFeedback":"测试版反馈",
     "pauseScreen.xboxLiveDisconnect":"糟糕！您的 Microsoft 账户断开了连接。您需要在主菜单中登录，重新打开您的世界，才能邀请更多的玩家。",
     "pauseScreen.joinCode.Label":"加入代码",
-    "pauseScreen.joinCode.Icon":"%3 加入代码图标，第 %1 个，共 %2 个	 Example:",
-
+    
 }
