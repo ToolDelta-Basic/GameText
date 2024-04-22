@@ -1,0 +1,22 @@
+invite: dict = {
+    'invite.clear=清除选择",
+    'invite.send=发送 %d 份邀请函",
+    'invite.sendOne=发送 1 份邀请",
+    'invite.sendUnnumbered=发送邀请",
+    'invite.title=邀请好友加入您的游戏",
+    'invite.titleRealms=邀请成员加入您的 Realm 服务器",
+    'invite.error.message=你的部分邀请函可能发送失败。",
+    'invite.noFriends=您尚未添加任何人到您的好友列表中！",
+    'invite.noRealmFriends=您尚未添加任何人到您的 Realm 中！",
+    'invite.OnlineFriends=在线好友",
+    'invite.OfflineFriends=离线好友",
+    'invite.SuggestedFriends=推荐好友",
+    'invite.error1=出错了。我们无法加载您的好友列表。",
+    'invite.error2=出错了。我们无法加载您部分好友的详情。",
+    'invite.realm.add_member=添加 Realm 成员",
+    'invite.notification.title=游戏邀请",
+    'invite.notification.description=%s 邀请您玩《我的世界》",
+    'invite.confirmation.description=%s 邀请您玩《我的世界》",
+    'invite.pageCounter=%d/%d",
+
+}

@@ -16,6 +16,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+
+      - name: Make SRC directory
+        run: |
+          python parsing_lang.py
+
       - name: Get version from ToolDelta repository
         id: get_version
         run: |
