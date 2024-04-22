@@ -1,4 +1,4 @@
 inventory: dict = {
-    "inventory.binSlot":摧毁物品",
+    "inventory.binSlot":"摧毁物品",
 
 }

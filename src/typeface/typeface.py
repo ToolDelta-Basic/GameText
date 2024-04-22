@@ -1,5 +1,5 @@
 typeface: dict = {
-    "typeface.mojangles":Mojangles",
-    "typeface.notoSans":思源黑体",
+    "typeface.mojangles":"Mojangles",
+    "typeface.notoSans":"思源黑体",
 
 }

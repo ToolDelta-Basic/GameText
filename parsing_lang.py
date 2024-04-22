@@ -17,7 +17,7 @@ def check_digit(string):
 
 def process_line(line):
     processed_line = line.replace('"', "'")
-    processed_line = f'"{processed_line}'.replace('=', '":').replace("\n", "")
+    processed_line = f'"{processed_line}'.replace('=', '":"').replace("\n", "")
     return processed_line + '",\n'
 
 def process_file(file_path, name):

@@ -1,4 +1,4 @@
 usermanagement: dict = {
-    "usermanagement.changeUser":更改用户",
+    "usermanagement.changeUser":"更改用户",
 
 }
