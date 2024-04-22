@@ -10,7 +10,8 @@ with open(lang_file_path, lang_file_mode) as lang_data_io:
     # data = lang_data_io.read()
 
 def process_line(line):
-    processed_line = f'"{line}'.replace('"=', '":').replace("\n", "").replace('"', "'")
+    processed_line = line.replace('"', "'")
+    processed_line = f'"{processed_line}'.replace('"=', '":').replace("\n", "")
     return processed_line + '",\n'
 
 def process_file(file_path, name):

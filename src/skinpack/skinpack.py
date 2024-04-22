@@ -1,4 +1,4 @@
 skinpack: dict = {
-    'skinpack.Education=Education Edition 皮肤",
+    "skinpack.Education=Education Edition 皮肤",
 
 }

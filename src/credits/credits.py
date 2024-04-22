@@ -1,4 +1,4 @@
 credits: dict = {
-    'credits.skip=跳过",
+    "credits.skip=跳过",
 
 }

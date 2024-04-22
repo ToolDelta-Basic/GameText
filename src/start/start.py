@@ -1,4 +1,4 @@
 start: dict = {
-    'start.beta.icon=Beta 版",
+    "start.beta.icon=Beta 版",
 
 }

@@ -1,5 +1,5 @@
 xblLogin: dict = {
-    'xblLogin.LoginMessageTitle=Microsoft 账户",
-    'xblLogin.LoginMessage=连接中...",
+    "xblLogin.LoginMessageTitle=Microsoft 账户",
+    "xblLogin.LoginMessage=连接中...",
 
 }

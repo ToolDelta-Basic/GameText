@@ -1,4 +1,4 @@
 cauldronScreen: dict = {
-    'cauldronScreen.header=炼药锅",
+    "cauldronScreen.header=炼药锅",
 
 }
