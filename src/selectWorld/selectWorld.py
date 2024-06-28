@@ -35,7 +35,7 @@ selectWorld: dict = {
     "selectWorld.gameMode.hardcore":"极限",
     "selectWorld.gameMode.hardcore.line1":"难度锁定在困难的生存模式",
     "selectWorld.gameMode.hardcore.line2":"且只有一条生命",
-    "selectWorld.gameMode.spectator":"旁观者",
+    "selectWorld.gameMode.spectator":"旁观",
     "selectWorld.gameMode.spectator.line1":"你可以观看世界，但不能交互",
     "selectWorld.gameMode.spectator.line2":"",
     "selectWorld.gameMode.survival":"生存",
@@ -70,5 +70,7 @@ selectWorld: dict = {
     "selectWorld.tab.thirdParty":"服务器",
     "selectWorld.title":"选择世界",
     "selectWorld.world":"世界",
+    "selectWorld.editor.create":"创建新项目",
+    "selectWorld.editor.enterName":"项目名称",
 
 }

@@ -17,7 +17,6 @@ gameTest: dict = {
     "gameTest.error.failed":"%s失败！",
     "gameTest.error.succeededInInvalidTick":"在无效标记中成功：预期 %s，但当前标记为 %s",
     "gameTest.error.noTestsFound":"未找到用于标签‘%s’的测试",
-    "gameTest.error.simulatedPlayerOutOfBounds":"模拟玩家“%s”已离开其游戏测试结构太远。",
     "gameTest.error.unkownEvent":"未知事件名称 '%s'",
     "gameTest.optionalPrefix":"（可选）",
     "gameTest.assert.couldNotSetBlock":"无法设置方块“%s”",

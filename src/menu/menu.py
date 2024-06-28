@@ -28,7 +28,7 @@ menu: dict = {
     "menu.playOnRealms":"在 Realm 上玩",
     "menu.quickplay":"快速开始游戏",
     "menu.quit":"保存并退出",
-    "menu.quit.edu":"保存&退出",
+    "menu.quit.edu":"保存并退出",
     "menu.quiz":"参加测验",
     "menu.resetdemo":"重置试玩世界",
     "menu.resourcepacks":"资源包",
@@ -48,6 +48,9 @@ menu: dict = {
     "menu.switchingLevel":"转接世界中",
     "menu.makingBackup":"制作备份中...",
     "menu.saving":"保存中……",
-    "menu.toolboxMode":"工具箱模式",
+    "menu.editorMode":"编辑器模式",
+    "menu.editor.play":"继续",
+    "menu.character_cast.select_title":"选择你的初始角色",
+    "menu.character_cast.preview_title":"与演员见面！",
 
 }

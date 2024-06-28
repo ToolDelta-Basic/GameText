@@ -22,6 +22,7 @@ chat: dict = {
     "chat.settings.mentions":"我的选项",
     "chat.settings.mentionsColor":"我的提及颜色",
     "chat.settings.muteAll":"静音所有聊天",
+    "chat.settings.muteEmotes":"静音表情聊天",
     "chat.settings.unmuteAll":"取消静音所有聊天",
     "chat.settings.tts":"聊天文本转语音",
     "chat.stream.emote":"(%s) * %s %s",
@@ -35,5 +36,11 @@ chat: dict = {
     "chat.type.sleeping":"%s正在床上睡觉。要快进到黎明，需要所有玩家同时在床上睡觉。",
     "chat.type.text":"<%s> %s",
     "chat.renamed":"你已暂时在此服务器上重命名为 '%s'",
+    "chat.coordinateTypePosition":"我的位置",
+    "chat.coordinateTypeFacing":"方块位置",
+    "chat.coordinateCopiedToast":"坐标已复制",
+    "chat.coordinatesInvalid":"无效坐标",
+    "chat.coordinatesInvalidLong":"无效坐标：确保您正在查看方块",
+    "chat.redactObfuscatedText":"[OBFUSCATED]",
 
 }

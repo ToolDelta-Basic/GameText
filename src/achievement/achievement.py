@@ -4,7 +4,7 @@ achievement: dict = {
     "achievement.acquireIron":"来硬的",
     "achievement.acquireIron.desc":"冶炼出一块铁锭",
     "achievement.bakeCake":"蛋糕是个谎言",
-    "achievement.bakeCake.desc":"小麦、糖、牛奶和鸡蛋！",
+    "achievement.bakeCake.desc":"小麦、糖、奶和鸡蛋！",
     "achievement.blaze_rod":"与火共舞",
     "achievement.blaze_rod.desc":"夺取烈焰人的棒子",
     "achievement.bookcase":"图书管理员",

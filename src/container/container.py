@@ -33,5 +33,11 @@ container: dict = {
     "container.shulkerbox":"潜影盒",
     "container.shulkerboxContains":"还有 %d 个...",
     "container.barrel":"木桶",
+    "container.smithing_table.arrow_tooltip_cannot_craft":"物品无法以这种方式升级",
+    "container.smithing_table.input_slot_tooltip_armor_trim":"添加一件盔甲",
+    "container.smithing_table.input_slot_tooltip_netherite":"添加钻石盔甲、武器或工具",
+    "container.smithing_table.material_slot_tooltip_armor_trim":"添加锭或水晶",
+    "container.smithing_table.material_slot_tooltip_netherite":"添加下界合金锭",
+    "container.smithing_table.template_slot_tooltip":"添加锻造模板",
 
 }

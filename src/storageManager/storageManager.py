@@ -36,7 +36,7 @@ storageManager: dict = {
     "storageManager.dependency.removeDependencies":"保留该项目，此包需要",
     "storageManager.dependency.breakPack":"确定要打破此包吗?",
     "storageManager.share.compress":"正在压缩选中的资源…",
-    "storageManager.share.totalPercent":"100%",
+    "storageManager.share.totalPercent":"-100%",
     "storageManager.dependency.continue":"继续",
     "storageManager.dependency.continue.scroll":"滚动继续",
     "storageManager.sortLargest":"大小 - 按从大到小排列",

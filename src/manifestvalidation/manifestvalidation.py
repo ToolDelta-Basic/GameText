@@ -21,5 +21,6 @@ manifestvalidation: dict = {
     "manifestvalidation.unkown.packid":"未知资源包 ID",
     "manifestvalidation.unkown.packversion":"未知资源包版本",
     "manifestvalidation.noname":"缺少名称",
+    "manifestvalidation.editor.cannotLoadToVanillaWorld":"编辑器扩展包只能用于编辑器项目。你的世界仍将加载，但我们建议停用或删除扩展包。",
 
 }

@@ -6,11 +6,15 @@ edu: dict = {
     "edu.play_screen.join_world":"加入世界",
     "edu.play_screen.import":"导入",
     "edu.play_screen.new":"新",
+    "edu.play_screen.guided_create":"引导式创建",
+    "edu.play_screen.traditional":"传统",
     "edu.play_screen.from_template":"模板",
     "edu.worlds_screen.title":"我的世界",
     "edu.worlds_screen.new_world":"新的世界",
     "edu.worlds_screen.new":"新",
     "edu.worlds_screen.templates":"模板",
+    "edu.worlds_screen.guided_create":"引导式创建",
+    "edu.worlds_screen.traditional":"传统",
     "edu.worlds_screen.search_placeholder":"搜索",
     "edu.worlds_screen.play":"游戏",
     "edu.worlds_screen.host":"主机",
@@ -34,5 +38,6 @@ edu: dict = {
     "edu.pause.multiplayer.disabled":"用户课程在该课程中不可用。",
     "edu.pause.ipaddress":"IP 地址",
     "edu.pause.port":"端口",
+    "edu.pause.nethernetLabel":"连接 ID",
 
 }

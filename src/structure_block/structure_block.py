@@ -1,4 +1,5 @@
 structure_block: dict = {
+    "structure_block.waterlog_block":"水涝方块",
     "structure_block.title":"结构方块",
     "structure_block.structure_name":"建筑名称",
     "structure_block.mode":"模式：",
@@ -29,6 +30,7 @@ structure_block: dict = {
     "structure_block.include":"包含",
     "structure_block.detect":"检测",
     "structure_block.export":"导出",
+    "structure_block.import":"导入",
     "structure_block.corner":"角落",
     "structure_block.corner.text.1.title":"角落模式：",
     "structure_block.corner.text.2.paragraph":"角落模式可以与保存模式中的检测按钮一起使用，来定义要保存的区域。它将只检测与所保存的结构同名的角落方块。",
@@ -39,6 +41,8 @@ structure_block: dict = {
     "structure_block.save_to_disk":"保存至磁盘",
     "structure_block.save_to_memory":"保存在内存中",
     "structure_block.save.successful":"结构已保存！",
+    "structure_block.import.successful":"结构已导入！",
+    "structure_block.import.failed":"结构导入失败！",
     "structure_block.load":"加载",
     "structure_block.mirror.none":"无",
     "structure_block.mirror.left_right":"左右",
@@ -53,5 +57,9 @@ structure_block: dict = {
     "structure_block.exportFailedTitle":"导出失败",
     "structure_block.exportFailedDescription":"我们未能导出该结构。",
     "structure_block.exportProgressTitle":"正在导出您的结构",
+    "structure_block.importFileTitle":"导入结构",
+    "structure_block.importFailedTitle":"导入失败",
+    "structure_block.importFailedDescription":"我们未能导出该结构。",
+    "structure_block.importProgressTitle":"正在导入结构",
 
 }

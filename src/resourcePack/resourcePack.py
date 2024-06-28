@@ -45,8 +45,6 @@ resourcePack: dict = {
     "resourcePack.warnings":"警告：",
     "resourcePack.warning.title":"这很危险！",
     "resourcePack.warning.body":"游玩世界后添加或删除行为包可能会对世界造成破坏，导致您丢失自己创建的行为包。点击“确定”可停用包，或点击“取消”以保持其活跃状态。",
-    "resourcePack.error.plugin_removal.title":"不允许操作。",
-    "resourcePack.error.plugin_removal.body":"删除一个带有插件的行为包，可能破坏世界并导致您丢失所创建的内容。",
     "resourcePack.requiredDependency.title":"必备依赖项",
     "resourcePack.requiredDependency.body":"此资源包是当前已应用的另一个资源包的必备依赖项。",
     "resourcePack.missingDependency.title":"缺少依赖项",

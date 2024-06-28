@@ -12,7 +12,7 @@ pauseScreen: dict = {
     "pauseScreen.error.noPort":"未发现端口",
     "pauseScreen.title":"游戏暂停",
     "pauseScreen.betaFeedback":"测试版反馈",
-    "pauseScreen.xboxLiveDisconnect":"糟糕！您的 Microsoft 账户断开了连接。您需要在主菜单中登录，重新打开您的世界，才能邀请更多的玩家。",
+    "pauseScreen.xboxLiveDisconnect":"糟糕！您的 Microsoft 账户已断开连接。要使用在线功能，请在主菜单登录，并重新打开您的世界。",
     "pauseScreen.joinCode.Label":"加入代码",
     
 }

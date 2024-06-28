@@ -6,6 +6,7 @@ trade: dict = {
     "trade.levelPrefix":"%d 级",
     "trade.levelPrefixAndName":"%d - %s 级",
     "trade.levelPrefixAndName.max":"最大等级 - %s",
+    "trade.nameAndLevel":"%s - %s",
     "trade.level.1":"新手",
     "trade.level.2":"学徒",
     "trade.level.3":"熟手",

@@ -39,5 +39,6 @@ feed: dict = {
     "feed.uppload_started":"正在上传截图",
     "feed.uppload_success":"截图已上传",
     "feed.connected":"每一个 Realm 都使用了您的 Microsoft 账户与俱乐部连接。",
+    "feed.unviewedPost":"新",
 
 }

@@ -8,7 +8,7 @@ demo: dict = {
     "demo.day.warning":"您的试玩时间即将结束！",
     "demo.demoExpired":"试玩的时间结束了！",
     "demo.help.buy":"即刻购买！",
-    "demo.help.fullWrapped":"这个试玩将会持续游戏内5天的时间 (现实时间大约为1小时40分钟) 。查看成就来获得提示！祝您玩得开心！",
+    "demo.help.fullWrapped":"这个试玩将持续 5 天（实际时间约为 1 小时 40 分钟）。查看成就可获得提示！祝您玩得开心！",
     "demo.help.inventory":"按 %1$s 打开你的道具栏",
     "demo.help.jump":"按 %1$s 跳跃",
     "demo.help.later":"继续玩！",
@@ -18,5 +18,6 @@ demo: dict = {
     "demo.help.title":"《我的世界》试玩模式",
     "demo.remainingTime":"剩余时间：%s",
     "demo.reminder":"试玩时间已经结束，请购买游戏来继续或开始一个新的世界！",
+    "demo.cb.reminder":"试玩时间已经结束，开启新世界继续玩试用版！",
 
 }

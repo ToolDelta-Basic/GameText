@@ -10,12 +10,14 @@ disconnect: dict = {
     "disconnect.removed.reason":"您已被移除出游戏：",
     "disconnect.loginFailed":"登入失败",
     "disconnect.loginFailedInfo":"登入失败：%s",
-    "disconnect.loginFailedInfo.invalidSession":"无效的会话 (请尝试重启你的游戏)",
+        "disconnect.loginFailedInfo.invalidSession":"无效的会话 (请尝试重启你的游戏)",
     "disconnect.loginFailedInfo.serversUnavailable":"身份验证目前正在停机维护。",
     "disconnect.lost":"连接已丢失",
     "disconnect.overflow":"缓冲区溢出",
     "disconnect.quitting":"退出",
     "disconnect.spam":"由于滥发信息而被踢出游戏",
     "disconnect.timeout":"连接超时",
+    "disconnect.scriptWatchdog":"由于未处理的脚本监视程序异常，服务器已关闭。",
+    "disconnect.scriptWatchdogOutOfMemory":"服务器由于超出脚本内存限制而关闭。",
 
 }

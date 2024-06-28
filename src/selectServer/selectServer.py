@@ -8,7 +8,7 @@ selectServer: dict = {
     "selectServer.direct":"直接连接",
     "selectServer.edit":"编辑",
     "selectServer.empty":"空",
-    "selectServer.hiddenAddress":"(隐藏)",
+    "selectServer.hiddenAddress":" (隐藏)",
     "selectServer.refresh":"刷新",
     "selectServer.select":"加入服务器",
     "selectServer.title":"选择服务器",

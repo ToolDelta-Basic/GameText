@@ -4,6 +4,7 @@ profileScreen: dict = {
     "profileScreen.manage_button_text":"编辑角色",
     "profileScreen.manage_button_text_skin":"更改经典皮肤",
     "profileScreen.manage_button_create_text":"创建角色",
+    "profileScreen.selectPrebuiltCharacter":"从角色列表中选择",
     "profileScreen.create_persona_confirm_skin":"创建经典皮肤",
     "profileScreen.delete_button":"删除角色",
     "profileScreen.settings_button":"游戏设置",

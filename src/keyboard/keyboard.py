@@ -5,6 +5,7 @@ keyboard: dict = {
     "keyboard.keyName.pause":"暂停",
     "keyboard.keyName.lshift":"SHIFT",
     "keyboard.keyName.control":"控制",
+    "keyboard.keyName.alt":"替代",
     "keyboard.keyName.capsLock":"大写",
     "keyboard.keyName.escape":"ESC",
     "keyboard.keyName.space":"空格",
@@ -101,6 +102,7 @@ keyboard: dict = {
     "keyboard.keyName.pause.short":"暂停",
     "keyboard.keyName.lshift.short":"SHIFT",
     "keyboard.keyName.control.short":"CTRL",
+    "keyboard.keyName.alt.short":"ALT",
     "keyboard.keyName.capsLock.short":"CAPS",
     "keyboard.keyName.escape.short":"ESC",
     "keyboard.keyName.space.short":"空格",
@@ -140,5 +142,6 @@ keyboard: dict = {
     "keyboard.keyName.period.short":".",
         "keyboard.keyName.lbracket.short":"[",
     "keyboard.keyName.rbracket.short":"]",
+    "keyboard.onScreen.lineNumber":"行 %s",
 
 }

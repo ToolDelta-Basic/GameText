@@ -3,6 +3,7 @@ selectTemplate: dict = {
     "selectTemplate.generateRandom":"创建新世界",
     "selectTemplate.createRealm":"新建 Realm",
     "selectTemplate.create":"新建…",
+    "selectTemplate.worldsByCreators":"由创作者创建的世界",
     "selectTemplate.realm":"新 Realm",
     "selectTemplate.realmInfo":"你可以在创建 Realm 后将世界上传！",
     "selectTemplate.signIn":"用 Microsoft 账户创建 Realm",
@@ -25,5 +26,6 @@ selectTemplate: dict = {
     "selectTemplate.createdBy":"创建者：%s",
     "selectTemplate.inventory":"我的市场包",
     "selectTemplate.seeMore":"查看更多",
+    "selectTemplate.editor.generateRandom":"创建新项目",
 
 }

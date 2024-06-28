@@ -15,6 +15,7 @@ playscreen: dict = {
     "playscreen.realmsCreateFirstWorld":"创建您的第一个 Realm",
     "playscreen.realmsCombo":"与友同乐，享受 150+ 款包",
     "playscreen.realmsGetServer":"获取专属服务器及 150+ 款包",
+    "playscreen.realmGoogleHoldBody":"您的一个或多个 Realms 订阅存在问题。点击“确定”，进入 Google Play 订阅设置，以修复您的支付方式。",
     "playscreen.realmsContent":"游玩 150+ 款市场包",
     "playscreen.checkingRealmsCompatibility":"正在检查 Realms 兼容性……",
     "playscreen.fetchingRealms":"正在提取 Realms……",
@@ -48,5 +49,7 @@ playscreen: dict = {
     "playscreen.delete.legacy.deleting":"正在删除世界……",
     "playscreen.beta_worlds":"测试版世界",
     "playscreen.beta_legacy_worlds":"旧测试版世界",
+    "playscreen.editor.worlds":"项目",
+    "playscreen.editor.create":"创建新项目",
 
 }

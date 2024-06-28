@@ -12,5 +12,6 @@ date: dict = {
     "date.short_november":"十一月",
     "date.short_december":"十二月",
     "date.formatted":"%s %d %d",
+    "date.formatted_alt":"%d %s %d",
 
 }
