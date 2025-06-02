@@ -82,6 +82,7 @@ gui: dict = {
     "gui.genericNetworkError":"出错了。尝试检查您的互联网连接。",
     "gui.hide":"隐藏",
     "gui.editor.minecraftProject":"《我的世界》项目",
+    "gui.editor.minecraftTestWorld":"《我的世界》编辑器测试世界",
     "gui.editor.exportProject":"导出项目",
     "gui.editor.copyProject":"复制项目",
         "gui.edu.exitGameWarningCaption":"《Minecraft Education》	 Use Minecraft 教育版 in zh_CN translation",

@@ -19,6 +19,8 @@ multiplayer: dict = {
     "multiplayer.player.changeToSkin":"%s 已更改他们的皮肤。",
     "multiplayer.stopSleeping":"起床",
     "multiplayer.playersSleeping":"%s/%s 名玩家已入睡",
+    "multiplayer.playersSleepingNotPossible":"今晚不能再休息了",
+    "multiplayer.playersSkippingNight":"整夜睡觉",
     "multiplayer.texturePrompt.line1":"这个服务器推荐使用自定义的资源包。",
     "multiplayer.texturePrompt.line2":"你想要自动下载和安装它吗？",
     "multiplayer.title":"多人游戏",

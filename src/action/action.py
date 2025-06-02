@@ -57,6 +57,7 @@ action: dict = {
     "action.interact.read":"阅读",
     "action.interact.wakevillager":"叫醒村民",
     "action.interact.barter":"交换",
+    "action.interact.use":"使用物品",
     "action.interact.allay":"给悦灵物品",
     "action.hint.exit.chest_boat":"点击“跳跃”离开船",
         "action.hint.exit.camel":"轻触潜行可以下马",

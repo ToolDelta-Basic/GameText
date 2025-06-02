@@ -2,7 +2,7 @@ controllerLayoutScreen: dict = {
     "controllerLayoutScreen.actions":"动作",
     "controllerLayoutScreen.activeBindingNameFormat":"> %s <",
     "controllerLayoutScreen.bindings":"绑定",
-    "controllerLayoutScreen.resetAllBindings":"默认设置",
+    "controllerLayoutScreen.resetAllBindings":"重置为默认值",
     "controllerLayoutScreen.button":"按钮",
     "controllerLayoutScreen.cancel":"取消",
     "controllerLayoutScreen.confirmation.reset":"是否确实要重置设置？",

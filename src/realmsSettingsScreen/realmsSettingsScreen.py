@@ -84,6 +84,7 @@ realmsSettingsScreen: dict = {
     "realmsSettingsScreen.consumableToSubscriptionTransitionInfoExpired":"您的 Realm 已过期。您可以使用新的自动更新订阅来扩展它，这样您就不必再费心来让您的 Realm 继续保持运行了。",
     "realmsSettingsScreen.upload.worldtoobig":"上传失败。世界大小超过最大可上传限制（%s）。",
     "realmsSettingsScreen.download.worldtoobig":"下载失败。世界大小超过最大可下载限制（%s）。",
+    "realmsSettingsScreen.SubscriptionTimeLeftRefresh":"在下一次账单日期之前，不会反映对你的 Realms 订阅所做的更改，例如堆叠时间或关闭重复计费。",
     "realmsSettingsScreen.switchStoreDisplayName":"Nintendo eShop",
     "realmsSettingsScreen.iosStoreDisplayName":"App Store",
     "realmsSettingsScreen.googlePlayStoreDisplayName":"Google Play 商店",

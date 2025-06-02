@@ -74,7 +74,7 @@ itemGroup: dict = {
     "itemGroup.name.netherWartBlock":"下界疣",
     "itemGroup.name.candles":"蜡烛",
     "itemGroup.name.goatHorn":"山羊角",
-    "itemGroup.name.sculk":"幽匿",
+    "itemGroup.name.sculk":"潜声",
     "itemGroup.name.hanging_sign":"悬挂告示牌",
     "itemGroup.name.potterySherds":"纹样陶片",
     "itemGroup.name.smithing_templates":"锻造模板",

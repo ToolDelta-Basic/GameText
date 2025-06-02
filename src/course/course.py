@@ -49,7 +49,7 @@ course: dict = {
     "course.edu.connectionInfo":"连接 ID",
     "course.edu.conInfoPlaceholder":"请输入连接 ID",
     "course.edu.conInfoHostTooltipText":"如果其他人在使用“加入代码”或共享链接加入你的世界时遇到问题，则可以共享连接 ID。",
-    "course.edu.conInfoTooltipText":"领主可以在其世界游戏内菜单的多人游戏选项卡上找到连接 ID。",
+    "course.edu.conInfoTooltipText":"主机可以在其世界游戏菜单的多人游戏选项卡上找到连接 ID。",
     "course.edu.joinLesson":"加入游戏",
     "course.edu.joinLessonIntro":"与同学一起加入同一个战局，或者如果他们没有出现在清单中，则输入他们的 IP 地址。",
     "course.edu.joinLessonIntroTeacher":"选择你想加入的小组，或者如果他们没有出现在清单中，则输入他们的 IP 地址。",

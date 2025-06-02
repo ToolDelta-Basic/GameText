@@ -21,6 +21,7 @@ xbl: dict = {
     "xbl.syncIAP.confirmSync.prompt.description.line2":"对于《我的世界》市场之外购买的包您只能进行一次同步。任何在这台设备上进行游戏的玩家都可以继续使用它们。",
     "xbl.syncIAP.confirmSync.prompt.yes":"是，同步我的购买",
     "xbl.marketplace.account.error.body.nobutton":"您的帐户出现错误。 我们需要解决这个问题，然后您才能使用 Marketplace。 如果此问题连续多天都无法解决，请联系支持人员。",
+    "xbl.marketplace.account.banned.body.nobutton":"暂停期结束之前，您将无法使用市场。",
     "xbl.skipSignIn.prompt.title":"临时帐户",
     "xbl.skipSignIn.prompt.description":"如果您未将此设备的购买传输到此 Microsoft 帐户，该帐户将不是这台设备的主帐户。当您启动《我的世界》时，将不会自动登录。",
     "xbl.signOut.title":"Microsoft 账户购买！",

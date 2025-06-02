@@ -33,7 +33,7 @@ chat: dict = {
     "chat.type.achievement.taken":"%s失去了%s成就",
         "chat.type.announcement":"[%s] %s",
     "chat.type.emote":"* %s %s",
-    "chat.type.sleeping":"%s正在床上睡觉。要快进到黎明，需要所有玩家同时在床上睡觉。",
+    "chat.type.sleeping":"%s正在床上睡觉。要快进到黎明，还需要 %s 名用户同时在床上睡觉。",
     "chat.type.text":"<%s> %s",
     "chat.renamed":"你已暂时在此服务器上重命名为 '%s'",
     "chat.coordinateTypePosition":"我的位置",

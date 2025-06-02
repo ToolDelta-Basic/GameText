@@ -9,5 +9,6 @@ persona: dict = {
     "persona.realms.see.subscription":"在 Realms Plus 中",
     "persona.realms.time.remaining":"%s 以兑换",
     "persona.realms.savings":"通过订阅 Realms Plus，您可以节省 %s 个 Minecoin！",
+    "persona.preview.emote":"播放表情",
 
 }

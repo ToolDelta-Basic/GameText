@@ -6,5 +6,9 @@ accounts: dict = {
     "accounts.signOut":"注销",
     "accounts.switch":"切换账户",
     "accounts.manage":"管理帐户",
-
+    "accounts.signOut.fail.title":"注销失败",
+    "accounts.signOut.fail.body.line1":"我们暂时无法让您注销。请稍后再试。但这不会阻止您使用其他账户登录。",
+    "accounts.signOut.fail.body.line2":"错误代码：%s",
+    "accounts.signOut.fail.hyperLink.text":"了解更多",
+    
 }

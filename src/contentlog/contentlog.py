@@ -1,6 +1,7 @@
 contentlog: dict = {
     "contentlog.history.title":"内容日志历史",
     "contentlog.history.copyToClipboard":"复制到剪贴板",
+    "contentlog.history.clear":"清除",
         "contentlog.settingsSectionName":"内容日志设置",
     "contentlog.clear_files":"删除旧的日志",
     "contentlog.delete.title":"删除旧的日志文件？",

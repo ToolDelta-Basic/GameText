@@ -75,6 +75,7 @@ xbox: dict = {
     "xbox.profile.realName":"在 Xbox 应用程序中管理用于共享您的实际姓名的隐私设置。",
     "xbox.profile.removeFriend":"解除好友关系",
     "xbox.profile.report":"举报",
+    "xbox.profile.errorModal":"尝试打开玩家档案时出现问题。错误代码：%d",
     "xbox.report.gamertag":"举报 %s",
     "xbox.report.optionalText":"在此处输入文本（可选）",
     "xbox.report.toast":"您已举报 %s",

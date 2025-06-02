@@ -29,7 +29,7 @@ entity: dict = {
     "entity.eye_of_ender_signal.name":"末影之眼",
     "entity.falling_block.name":"下落的方块",
     "entity.fireball.name":"火球",
-    "entity.fireworks_rocket.name":"烟花火箭",
+    "entity.fireworks_rocket.name":"焰火火箭",
     "entity.fishing_hook.name":"鱼钩",
     "entity.fish.clownfish.name":"海葵鱼",
     "entity.fox.name":"狐狸",
@@ -133,6 +133,6 @@ entity: dict = {
     "entity.allay.name":"悦灵",
     "entity.chest_boat.name":"运输船",
     "entity.camel.name":"骆驼",
-    "entity.chest_raft.name":"运输竹筏",
+    "entity.chest_raft.name":"带宝箱的的竹筏",
 
 }

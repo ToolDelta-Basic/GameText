@@ -36,6 +36,7 @@ feed: dict = {
     "feed.forbidden":"未经授权发布到时间线",
     "feed.failedToPost":"发布不成功",
     "feed.failedToPostDescription":"无效的截图",
+    "feed.failedToPostRateLimit":"请几分钟后尝试再次发布。Realms 正在尝试恢复。",
     "feed.uppload_started":"正在上传截图",
     "feed.uppload_success":"截图已上传",
     "feed.connected":"每一个 Realm 都使用了您的 Microsoft 账户与俱乐部连接。",
